@@ -1,1 +1,27 @@
 # PuzzleTensor
+This repository is the official implementation of "PuzzleTensor: A Method-Agnostic Data Transformation for Compact Tensor Factorization" (submitted to KDD 2025).
+
+## Abstract
+How can we achieve compact tensor representations without sacrificing reconstruction accuracy?
+Tensor decomposition is a cornerstone of modern data mining and machine learning, enabling efficient representations of multi-dimensional data through fundamental algorithms such as CP, Tucker, and Tensor-Train decompositions.
+However, directly applying these methods to raw data often results in high target ranks, poor reconstruction accuracy, and computational inefficiencies, as the data may not naturally conform to the low-rank structures these methods assume. 
+
+In this paper, we propose PuzzleTensor, a method-agnostic data transformation technique for compact tensor factorization.
+Given a data tensor, PuzzleTensor ``solves the puzzle'' by shifting each hyperslice of the tensor to achieve accurate decompositions with significantly lower target ranks.
+PuzzleTensor offers three key advantages:
+(1) it is independent of specific decomposition methods, making it seamlessly compatible with various algorithms, such as CP, Tucker, and Tensor-Train decompositions;
+(2) it works under weak data assumptions, showing robust performance across both sparse and dense data, regardless of the rank;
+(3) it is inherently explainable, allowing clear interpretation of its learnable parameters and layer-wise operations.
+Extensive experiments show that PuzzleTensor consistently outperforms direct tensor decomposition approaches by achieving lower reconstruction errors and reducing the required target rank, making it a versatile and practical tool for compact tensor factorization in real-world applications. 
+
+## Datasets
+| Dataset | Type | Size | Density |
+|---------|------|------|---------|
+| [\(\{\mathrm{D}_n\}_{n=4, \cdots, 8}\)](https://github.com/AnonymousPuzzleTensor/PuzzleTensor/) | Synthetic | \(2^n \times 2^n \times 2^n\) | 1.000 |
+| [\(\{\mathrm{S}_n\}_{n=4, \cdots, 8}\)](https://github.com/AnonymousPuzzleTensor/PuzzleTensor/) | Synthetic | \(2^n \times 2^n \times 2^n\) | 0.100 |
+| [Uber](https://www.image-net.org/) | Real-world | \(183 \times 24 \times 1140\) | 0.138 |
+| [Action](https://www.cityscapes-dataset.com/) | Real-world | \(100 \times 570 \times 567\) | 0.393 |
+| [PEMS-SF](https://groups.csail.mit.edu/vision/datasets/ADE20K/) | Real-world | \(963 \times 144 \times 440\) | 0.999 |
+| [Activity](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost) | Real-world | \(337 \times 570 \times 320\) | 0.569 |
+| [Stock](https://www.kaggle.com/datasets/shayanriyaz/riceleafs) | Real-world | \(501 \times 88 \times 365\) | 1.000 |
+| [NYC](https://www.kaggle.com/datasets/akash2907/bird-species-classification) | Real-world | \(265 \times 265 \times 28 \times 35\) | 0.118 |
