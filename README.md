@@ -17,11 +17,13 @@ Extensive experiments show that PuzzleTensor consistently outperforms direct ten
 ## Datasets
 | Dataset | Type | Size | Density |
 |---------|------|------|---------|
-| [\(\{\mathrm{D}_n\}_{n=4, \cdots, 8}\)](https://github.com/AnonymousPuzzleTensor/PuzzleTensor/) | Synthetic | \(2^n \times 2^n \times 2^n\) | 1.000 |
-| [\(\{\mathrm{S}_n\}_{n=4, \cdots, 8}\)](https://github.com/AnonymousPuzzleTensor/PuzzleTensor/) | Synthetic | \(2^n \times 2^n \times 2^n\) | 0.100 |
-| [Uber](https://www.image-net.org/) | Real-world | \(183 \times 24 \times 1140\) | 0.138 |
-| [Action](https://www.cityscapes-dataset.com/) | Real-world | \(100 \times 570 \times 567\) | 0.393 |
-| [PEMS-SF](https://groups.csail.mit.edu/vision/datasets/ADE20K/) | Real-world | \(963 \times 144 \times 440\) | 0.999 |
-| [Activity](https://www.kaggle.com/datasets/thaihoa1476050/df2k-ost) | Real-world | \(337 \times 570 \times 320\) | 0.569 |
-| [Stock](https://www.kaggle.com/datasets/shayanriyaz/riceleafs) | Real-world | \(501 \times 88 \times 365\) | 1.000 |
-| [NYC](https://www.kaggle.com/datasets/akash2907/bird-species-classification) | Real-world | \(265 \times 265 \times 28 \times 35\) | 0.118 |
+| $D_{n=4,\cdots,8}$ | Synthetic | $2^n \times 2^n \times 2^n$ | 1.000 |
+| $S_{n=4,\cdots,8}$ | Synthetic | $2^n \times 2^n \times 2^n$ | 0.100 |
+| Uber | Real-world | $183 \times 24 \times 1140$ | 0.138 |
+| Action | Real-world | $100 \times 570 \times 567$ | 0.393 |
+| PEMS-SF | Real-world | $963 \times 144 \times 440$ | 0.999 |
+| Activity | Real-world | $337 \times 570 \times 320$ | 0.569 |
+| Stock | Real-world | $501 \times 88 \times 365$ | 1.000 |
+| NYC | Real-world | $265 \times 265 \times 28 \times 35$ | 0.118 |
+
+
