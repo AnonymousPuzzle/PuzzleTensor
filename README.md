@@ -7,7 +7,7 @@ Tensor decomposition is a cornerstone of modern data mining and machine learning
 However, directly applying these methods to raw data often results in high target ranks, poor reconstruction accuracy, and computational inefficiencies, as the data may not naturally conform to the low-rank structures these methods assume. 
 
 In this paper, we propose PuzzleTensor, a method-agnostic data transformation technique for compact tensor factorization.
-Given a data tensor, PuzzleTensor ``solves the puzzle'' by shifting each hyperslice of the tensor to achieve accurate decompositions with significantly lower target ranks.
+Given a data tensor, PuzzleTensor "solves the puzzle" by shifting each hyperslice of the tensor to achieve accurate decompositions with significantly lower target ranks.
 PuzzleTensor offers three key advantages:
 (1) it is independent of specific decomposition methods, making it seamlessly compatible with various algorithms, such as CP, Tucker, and Tensor-Train decompositions;
 (2) it works under weak data assumptions, showing robust performance across both sparse and dense data, regardless of the rank;
