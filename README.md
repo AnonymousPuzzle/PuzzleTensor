@@ -25,13 +25,13 @@ The real-world datasets are available at [Uber](http://frostt.io/), [Action](htt
 
 | Dataset | Type | Size | Density |
 |---------|------|------|---------|
-| $D_{n=4,\cdots,8}$ | Synthetic | $2^n \times 2^n \times 2^n$ | 1.000 |
-| $S_{n=4,\cdots,8}$ | Synthetic | $2^n \times 2^n \times 2^n$ | 0.010 |
-| Uber | Real-world | $183 \times 24 \times 1140$ | 0.138 |
-| Action | Real-world | $100 \times 570 \times 567$ | 0.393 |
-| PEMS-SF | Real-world | $963 \times 144 \times 440$ | 0.999 |
-| Activity | Real-world | $337 \times 570 \times 320$ | 0.569 |
-| Stock | Real-world | $1317 \times 88 \times 916$ | 0.816 |
-| NYC | Real-world | $265 \times 265 \times 28 \times 35$ | 0.118 |
+| $D_{n=4,\cdots,8}$ | Synthetic | $2^n \times 2^n \times 2^n$ | $1.000$ |
+| $S_{n=4,\cdots,8}$ | Synthetic | $2^n \times 2^n \times 2^n$ | $0.010$ |
+| Uber | Real-world | $183 \times 24 \times 1140$ | $0.138$ |
+| Action | Real-world | $100 \times 570 \times 567$ | $0.393$ |
+| PEMS-SF | Real-world | $963 \times 144 \times 440$ | $0.999$ |
+| Activity | Real-world | $337 \times 570 \times 320$ | $0.569$ |
+| Stock | Real-world | $1317 \times 88 \times 916$ | $0.816$ |
+| NYC | Real-world | $265 \times 265 \times 28 \times 35$ | $0.118$ |
 
 
