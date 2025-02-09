@@ -15,9 +15,9 @@ PuzzleTensor offers three key advantages:
 Extensive experiments show that PuzzleTensor consistently outperforms direct tensor decomposition approaches by achieving lower reconstruction errors and reducing the required target rank, making it a versatile and practical tool for compact tensor factorization in real-world applications. 
 
 ## Prerequisites
-- numpy
-- tensorly
-- torch
+- numpy==1.26.4
+- tensorly==0.8.1
+- torch==2.3.0
 
 ## Datasets
 | Dataset | Type | Size | Density |
