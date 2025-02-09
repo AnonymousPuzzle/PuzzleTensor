@@ -20,6 +20,8 @@ Extensive experiments show that PuzzleTensor consistently outperforms direct ten
 - torch==2.3.0
 
 ## Datasets
+The datasets are available at [Uber](http://frostt.io/), [Action](https://github.com/titu1994/MLSTM-FCN), [PEMS-SF](https://www.timeseriesclassification.com/), [Activity](https://github.com/titu1994/MLSTM-FCN), [Stock](https://github.com/jungijang/KoreaStockData), and [NYC](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
+
 | Dataset | Type | Size | Density |
 |---------|------|------|---------|
 | $D_{n=4,\cdots,8}$ | Synthetic | $2^n \times 2^n \times 2^n$ | 1.000 |
